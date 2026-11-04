@@ -54,7 +54,7 @@ node --check app.js
 npm test
 ```
 
-La suite de integración usa una carpeta temporal aislada y desactiva Apple Mail. No toca las cuentas ni los ajustes locales.
+La suite de integración inicia un servidor aislado en un puerto temporal y comprueba el acceso anónimo, las rutas desactivadas y las respuestas HTTP.
 
 ## Contribuir
 
