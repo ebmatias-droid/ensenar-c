@@ -1,5 +1,5 @@
 #!/bin/zsh
-STATE_DIR="/tmp/aprenderc-state"
+STATE_DIR="/tmp/ensenamec-state"
 for pid in $(pgrep -f '^ngrok http 4173' 2>/dev/null || true); do
   kill "$pid" 2>/dev/null && echo "ngrok de C detenido."
 done

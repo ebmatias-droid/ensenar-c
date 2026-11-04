@@ -38,15 +38,11 @@ ensenamec
 
 Para detener el servidor y el túnel de esta app, ejecuta `pararc`. El dominio ngrok Free está compartido con Calibre, así que solo se puede mantener activo uno de esos túneles a la vez.
 
-## Cuentas y privacidad
+## Acceso y progreso
 
-La primera ejecución crea una clave temporal de configuración para registrar la primera cuenta administradora. El script de inicio muestra la clave; úsala una sola vez y consérvala de forma segura. Luego se elimina.
+El curso es de acceso libre: no hay registro, contraseña, sesión ni panel de cuentas. Cualquier persona que tenga el enlace puede abrir las lecciones. El avance se guarda en el almacenamiento local del navegador y no se sincroniza entre dispositivos.
 
-Las cuentas, configuración y avisos se guardan en `.private/`, que Git ignora. Las contraseñas se almacenan como hashes scrypt con sal. Las sesiones usan cookies HttpOnly y SameSite; el curso requiere sesión, y la administración puede borrar cuentas para revocar sus sesiones. El avance de cada aprendiz se mantiene en el navegador asociado a su cuenta.
-
-En este equipo, los avisos de nuevas cuentas se envían con Apple Mail a la dirección configurada en `.private/settings.json`. El mensaje incluye nombre y correo del nuevo usuario; nunca incluye la contraseña. El panel de administración muestra el estado del envío.
-
-El servidor está diseñado para una instancia local de confianza detrás del túnel ngrok configurado. La base de cuentas es un archivo JSON local de una sola instancia; para una instalación multiusuario de producción, conviene reemplazarla con una base transaccional y desplegar detrás de HTTPS con procesos supervisados.
+Al publicar esta instancia mediante ngrok, quien tenga el enlace público puede acceder al contenido del curso.
 
 ## Desarrollo
 
@@ -54,7 +50,6 @@ No se requieren dependencias de npm.
 
 ```sh
 node --check server.js
-node --check auth.js
 node --check app.js
 npm test
 ```
