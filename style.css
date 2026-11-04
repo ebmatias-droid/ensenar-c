@@ -7,3 +7,21 @@
 [hidden]{display:none!important}
 .live-dot{background:#333;box-shadow:0 0 0 3px #3332}.streak-symbol,.xp-symbol{color:#555}.c-muted,.c-string,.c-type,.c-key,.c-number,.prompt,.run-result,.cursor,.ready,.hero-card-bottom b,.hero-card-bottom,.hero-stamp,.chapter-nav-item.current .nav-index,.nav-status,.aside-note>span,.chapter-index,.finish-mark,.text-button span,.lesson-kicker,.takeaway,.quiz-option.correct,.feedback{color:#333}.window-dots i,.window-dots i:first-child{background:#d8d8d8}.progress-track>div,.chapter-card.active .chapter-index{background:#252525}.chapter-card.active .chapter-index{color:#fff;border-color:#252525}.takeaway{border-left-color:#222;background:#f4f4f4}.quiz-option.correct{border-color:#555;background:#f2f2f2}.quiz-option.wrong{border-color:#888;background:#f4f4f4;color:#444}.finish-card{background:#f7f7f7}.success-banner{background:#f1f1f1;color:#333}.brand-icon-image{display:block;width:29px;height:29px}.topbar .avatar{border-color:#ddd;background:#fff;color:#222}.lesson-overlay{background:#1118}.lesson-modal{background:#fff}.lesson-next{background:#171717}.lesson-next span{color:#fff}.topbar{background:#ffffffed}.chapter-card.active{border-color:#aaa}.hero-stamp{color:#777}.ready,.hero-card-bottom,.hero-card-bottom b{color:#555}.window-dots i:first-child{background:#d8d8d8}
 @media(max-width:600px){.top-stats{gap:7px}}
+
+/* Selector de rutas multilenguaje: mismo lenguaje visual en blanco y negro. */
+.language-picker{padding:38px 0 12px;border-top:1px solid var(--line)}
+.picker-intro{margin:8px 0 18px;color:#666;font-size:13px}
+.language-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}
+.language-card{min-width:0;min-height:146px;padding:15px;text-align:left;display:flex;flex-direction:column;align-items:flex-start;gap:9px;background:#fff;border:1px solid #e4e4e4;border-radius:4px;color:#111;cursor:pointer;transition:border-color .16s,background .16s,transform .16s}
+.language-card:hover{border-color:#555;transform:translateY(-2px)}
+.language-card.selected{border-color:#111;background:#f5f5f5;box-shadow:inset 0 0 0 1px #111}
+.language-mark{font:500 13px var(--mono);letter-spacing:-.5px}
+.language-name{font:500 12px var(--mono)}
+.language-description{font-size:10px;line-height:1.5;color:#666}
+.language-lessons{margin-top:auto;font:9px var(--mono);letter-spacing:.4px;color:#777}
+#hero-title{max-width:520px}
+#hero-code{min-height:112px;white-space:pre-wrap;color:#222}
+#hero-output{font-family:var(--mono)}
+.hero-card-bottom #hero-total{font:9px var(--mono);color:#555}
+@media(max-width:900px){.language-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){.language-picker{padding:28px 0 6px}.language-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.language-card{min-height:132px;padding:11px;gap:7px}.language-description{font-size:9px}}

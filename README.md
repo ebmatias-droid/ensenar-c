@@ -1,10 +1,20 @@
-# Enseñar C
+# C / escuela
 
-Una escuela web interactiva, en español, para aprender el lenguaje C desde los primeros conceptos hasta la construcción de software de nivel profesional. Presenta una ruta progresiva, lecciones breves, ejemplos y comprobaciones de comprensión en una interfaz minimalista.
+Una escuela web interactiva, en español y de acceso libre. Conserva C como identidad y ruta principal, y permite elegir cursos de Python, Java, Lua, HTML + CSS y Swift. Cada ruta tiene su propio mapa, ejemplos, comprobaciones de comprensión y progreso local independiente, en una interfaz minimalista en blanco y negro.
 
 ## Ruta de aprendizaje
 
-El curso reúne 72 lecciones en 12 módulos:
+La ruta principal de C reúne 72 lecciones en 12 módulos, desde los fundamentos hasta sistemas, redes, servicios web y un proyecto profesional. También hay rutas introductorias de 24 lecciones en seis módulos para cada lenguaje adicional:
+
+- **Python:** automatización, estructuras de datos, APIs, bases de datos y operación de servicios.
+- **Java:** programación orientada a objetos, servicios, concurrencia y calidad de software.
+- **Lua:** scripting, tablas, coroutines e integración con aplicaciones anfitrionas y juegos.
+- **HTML + CSS:** documentos semánticos, accesibilidad, diseño adaptable y publicación web.
+- **Swift:** fundamentos, tipos, concurrencia, interfaces con SwiftUI y aplicaciones nativas.
+
+La selección de una ruta no modifica el nombre **C / escuela**. C abre por defecto. El curso seleccionado se recuerda en ese navegador; el progreso se conserva por separado para cada lenguaje.
+
+Ideas para ampliar el aprendizaje: proyectos graduados con hitos visibles, editor con ejecución guiada, retos de repaso espaciado, proyectos integradores que combinen frontend y backend, y rutas de especialización después de los fundamentos.
 
 1. **Primeros pasos:** qué es programar, herramientas, primer programa, compilación y errores.
 2. **Fundamentos:** variables, tipos, expresiones, entrada, salida y decisiones.
@@ -19,7 +29,7 @@ El curso reúne 72 lecciones en 12 módulos:
 11. **Web con C:** HTTP, CGI, APIs, serialización y servicios web.
 12. **Proyecto profesional:** diseño, pruebas, seguridad, documentación y publicación.
 
-Cada lección explica una idea, muestra código, propone una práctica y permite comprobar la comprensión. El avance se guarda localmente y por cuenta en el navegador.
+Cada lección explica una idea, muestra código, propone una práctica y permite comprobar la comprensión. El avance se guarda localmente en el navegador.
 
 ## Ejecutar localmente
 

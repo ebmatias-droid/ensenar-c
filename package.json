@@ -2,7 +2,7 @@
   "name": "ensenar-c",
   "version": "1.0.0",
   
-  "description": "Escuela web interactiva para aprender C desde cero hasta desarrollo profesional.",
+  "description": "Escuela web interactiva multilenguaje: C, Python, Java, Lua, HTML + CSS y Swift.",
   "scripts": {
     "start": "node server.js",
     "test": "node --test"
