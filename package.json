@@ -1,8 +1,7 @@
 {
   "name": "ensenar-c",
-  "version": "1.0.0",
-  
-  "description": "Escuela web interactiva multilenguaje: C, Python, Java, Lua, HTML + CSS y Swift.",
+  "version": "1.1.0",
+  "description": "Escuela web interactiva multilenguaje para aprender programación desde cero hasta proyectos profesionales.",
   "scripts": {
     "start": "node server.js",
     "test": "node --test"
@@ -10,5 +9,5 @@
   "engines": {
     "node": ">=20"
   },
-  "license": "Apache-2.0"
+  "license": "UNLICENSED"
 }
