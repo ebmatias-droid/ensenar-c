@@ -19,7 +19,6 @@ Gracias por ayudar a mejorar Enseñar C.
 
 ```sh
 node --check server.js
-node --check auth.js
 node --check app.js
 npm test
 ```
