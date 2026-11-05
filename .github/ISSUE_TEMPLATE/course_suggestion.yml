@@ -1,0 +1,32 @@
+name: Sugerencia de curso
+description: Propón una mejora para una ruta o lección.
+title: "[Curso]: "
+labels: ["curriculum"]
+body:
+  - type: dropdown
+    id: route
+    attributes:
+      label: Ruta
+      options:
+        - C
+        - Python
+        - Java
+        - Lua
+        - HTML + CSS
+        - Swift
+        - JavaScript
+        - TypeScript
+    validations:
+      required: true
+  - type: input
+    id: lesson
+    attributes:
+      label: Lección o tema
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Qué mejorarías y por qué
+    validations:
+      required: true
