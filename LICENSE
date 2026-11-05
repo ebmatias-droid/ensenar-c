@@ -1,57 +1,61 @@
 ALL RIGHTS RESERVED
 
-Copyright (c) 2026 Matías. All rights reserved.
+Copyright (c) 2026 Matías M. Eb. All rights reserved.
 
-This license applies to the source code, course text, examples, graphics, and
-other original material in this repository, except for third-party material
-identified as such and governed by its own terms.
+This End-User License Agreement applies to the Software and original materials in this repository, except third-party components and materials that are expressly identified as subject to their own licenses. Third-party components remain governed by their respective licenses.
 
-1. Rights retained
+# END-USER LICENSE AGREEMENT (EULA)
 
-The copyright holder retains all rights in the Work. No permission or license
-is granted to copy, reproduce, modify, adapt, translate, publish, distribute,
-sublicense, sell, publicly perform, publicly display, host, or create
-derivative works from the Work, in whole or in part, except for the limited
-personal access described below or where applicable law permits without a
-license.
+**PLEASE READ THIS AGREEMENT CRITICALLY AND IN ITS ENTIRETY. BY DOWNLOADING, INSTALLING, COPYING, ACCESSING, OR OTHERWISE USING THIS SOFTWARE, YOU UNCONDITIONALLY AGREE TO BE BOUND BY EACH AND EVERY TERM AND CONDITION CONTAINED HEREIN. IF YOU DO NOT AGREE TO THESE TERMS, YOU ARE STRICTLY PROHIBITED FROM USING THE SOFTWARE; YOU MUST IMMEDIATELY CEASE INSTALLATION, DESTROY ALL COPIES, AND PERMANENTLY DELETE THE SOFTWARE FROM ALL DEVICES AND STORAGE MEDIA.**
 
-2. Personal access
+## 1. ABSOLUTE PROPRIETARY NATURE & LICENSE GRANT (NOT FOR SALE)
 
-You may access and run the publicly available C / escuela website for your
-personal, non-commercial learning. You may use its interactive lessons and
-store your own course progress in your browser. This permission does not grant
-the right to download, redistribute, republish, or build another service from
-the repository contents.
+The Software—including but not limited to all source code, object code, binaries, updates, patches, graphics, user interfaces, documentation, and associated services—**is licensed, not sold, to you**. The Licensor grants you a strictly personal, fully revocable, highly limited, non-exclusive, non-sublicensable, and non-transferable license to use the Software solely for your own private, non-commercial purposes. **The Licensor retains sole, absolute, and exclusive ownership of all global intellectual property rights, titles, and interests in and to the Software.** No implied licenses are granted under any circumstances.
 
-3. Written permission
+## 2. IRONCLAD RESTRICTIONS ON USE
 
-Any use beyond the personal access above requires prior written permission
-from the copyright holder. A permission may be limited to the specific use and
-may include additional conditions. Requests may be sent through the contact
-options on https://github.com/ebmatias-droid.
+You explicitly agree that you shall not, nor shall you permit, assist, or authorize any third party to engage in any of the following actions. Any attempt to do so constitutes a material breach, resulting in the automatic, immediate termination of this license and subjecting you to severe civil and criminal liabilities:
 
-4. Trademarks and attribution
+- **Reverse Engineering:** You shall not decompile, disassemble, decrypt, extract, reverse engineer, or attempt to derive or discover the source code, underlying algorithms, or file formats of the Software by any means whatsoever, *except and only to the extent that applicable law expressly permits despite this limitation*.
+- **Modification and Derivative Works:** You shall not modify, adapt, alter, translate, enhance, or create any derivative works, wrappers, or forks based upon the Software.
+- **Commercialization, Hosting, and Distribution:** You shall not rent, lease, lend, sell, resell, redistribute, sub-license, assign, or exploit the Software for commercial gain. You are strictly prohibited from hosting the Software on any server, timesharing network, or cloud infrastructure to provide remote access, Software-as-a-Service (SaaS), or multi-tenant functionality to third parties.
+- **Security Circumvention and Emulation:** You shall not bypass, disable, circumvent, alter, or tamper with any digital rights management (DRM), copy protection mechanisms, licensing enforcement modules, or security features. You shall not develop, distribute, or use any emulators, cheats, hacks, bots, or third-party software designed to interact with or modify the Software ecosystem.
 
-No rights to use the C / escuela name, logo, or other marks are granted by this
-notice. Do not remove or misrepresent copyright or attribution notices.
+## 3. REMOTE TELEMETRY, AUDITING, AND REMEDIATION (THE "KILL-SWITCH")
 
-5. Third-party material
+The Licensor reserves the right, and you hereby grant explicit consent, to deploy automated remote monitoring, telemetry, and background audits within the Software to verify compliance with this Agreement. If the Licensor detects, **based on objective technical telemetry**, any unauthorized modification, use of forbidden third-party tools, piracy, or any material violation of this Agreement, **the Licensor possesses the absolute legal right to remotely, instantly, and permanently terminate, block, or disable access to the Software**.
 
-This notice does not replace or change the terms that apply to third-party
-software, fonts, tools, or other material. Their respective owners retain
-their rights, and their own notices and terms apply.
+- *Jurisdictional Carve-out:* To the maximum extent permitted by applicable law, this action will be executed without prior notice, without liability, and with a complete forfeiture of any rights to refunds or compensation. If local mandatory consumer laws strictly require a post-deprivation review, the Licensor will provide an automated system to contest the termination.
 
-6. No warranty and limitation
+## 4. INTELLECTUAL PROPERTY FORFEITURE AND FEEDBACK LICENSE
 
-The Work is provided "AS IS", without warranties or conditions of any kind,
-to the maximum extent permitted by applicable law. To the maximum extent
-permitted by applicable law, the copyright holder is not liable for claims or
-damages arising from access to or use of the Work.
+To the maximum extent permitted by law, any feedback, suggestions, custom configurations, or user-generated content created or submitted by you that incorporates or derives from the Software's proprietary structure shall automatically become the **exclusive, worldwide, royalty-free, perpetual property of the Licensor**. You hereby waive all moral rights and assign all intellectual property rights therein to the Licensor without any right to compensation.
 
-7. Applicable law
+## 5. TOTAL DISCLAIMER OF WARRANTIES ("AS IS" & "AS AVAILABLE")
 
-This notice is subject to applicable copyright law. If any provision is
-unenforceable under applicable law, the remaining provisions continue to
-apply to the extent permitted by law.
+**THE SOFTWARE IS PROVIDED TO YOU ON AN "AS IS" AND "AS AVAILABLE" BASIS, WITH ALL FAULTS, DEFECTS, AND ERRORS, AND WITHOUT WARRANTY OF ANY KIND.** TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR EXPRESSLY DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, SYSTEM INTEGRATION, TITLE, AND NON-INFRINGEMENT.
 
-ALL RIGHTS RESERVED. NO OPEN-SOURCE OR OTHER COPYRIGHT LICENSE IS GRANTED.
+## 6. LIMITATION OF LIABILITY AND INDEMNIFICATION
+
+- **Limitation of Liability:** UNDER NO LEGAL THEORY SHALL THE LICENSOR BE LIABLE TO YOU FOR ANY INDIRECT, SPECIAL, INCIDENTAL, PUNITIVE, OR CONSEQUENTIAL DAMAGES (INCLUDING COMPUTER FAILURE OR DEVICE BRICKING). **NOTHING IN THIS AGREEMENT EXCLUDES OR LIMITS LIABILITY FOR DEATH, PERSONAL INJURY, OR GROSS NEGLIGENCE WHERE SUCH EXCLUSIONS ARE PROHIBITED BY MANDATORY LOCAL LAW.** IN SUCH JURISDICTIONS, LICENSOR’S LIABILITY SHALL BE LIMITED TO THE MAXIMUM EXTENT PERMITTED BY LAW OR THE AMOUNT PAID BY YOU FOR THE SOFTWARE, WHICHEVER IS LESS.
+- **Indemnification:** You agree to fully indemnify, defend, and hold harmless the Licensor from and against any claims, losses, damages, and expenses (including attorneys' fees) arising out of your unlawful breach of this Agreement.
+
+## 7. MANDATORY BINDING INDIVIDUAL ARBITRATION & CLASS ACTION WAIVER
+
+**PLEASE REVIEW THIS SECTION CAREFULLY. IT DRASTICALLY AFFECTS YOUR LEGAL RIGHTS, INCLUDING YOUR RIGHT TO FILE A LAWSUIT IN COURT.**
+
+- **Binding Arbitration:** Except where prohibited by mandatory local consumer protection laws, any dispute, controversy, or claim arising out of this Agreement shall be settled exclusively by **binding, confidential individual arbitration** administered by a recognized arbitration association selected solely by the Licensor.
+- **Class Action Waiver:** **YOU AND THE LICENSOR AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN YOUR OR ITS INDIVIDUAL CAPACITY, AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR REPRESENTATIVE PROCEEDING.** YOU EXPLICITLY WAIVE THE RIGHT TO A TRIAL BY JURY.
+
+## 8. GOVERNING LAW, LOCAL CONSUMER CARVE-OUT, AND SEVERABILITY
+
+This Agreement shall be governed by, and construed in accordance with, the laws of the **State of Delaware, United States of America**.
+
+- **Local Consumer Protection Laws:** If you are a consumer residing in a jurisdiction (such as the European Union, UK, or parts of Latin America) where local laws mandatory dictate that local consumer rights cannot be waived by contract, **the mandatory consumer protection laws and courts of your country of residence shall apply** solely to the extent required by law.
+- **Severability:** If any provision of this Agreement is found to be unenforceable or invalid by a court of competent jurisdiction, that specific provision shall be severed, and **the remaining provisions of this Agreement shall remain in full force, effect, and completely enforceable.**
+
+---
+
+**ALL RIGHTS RESERVED. NO OPEN-SOURCE LICENSE IS GRANTED.**
+
+Third-party notices: this agreement does not supersede licenses applicable to third-party software or other materials included in or used by the Software.
